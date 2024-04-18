@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Andale Mono'; 
+}
+/* ############## HEADER ##############*/ 
+header{
+width: 100%;
+clear: both;
+content: '';
+display: table;
+padding: 5px 0;
+border-bottom: groove;
+border-width: 1px;
+background-color: #f2f9fa;
+}
+.menu{
+    width: 90%;
+    margin: 0 auto;
+}
+img{
+    width: 110px;
+    float: left;
+    border-radius: 15px;
+}
+nav{
+    float: right;
+}
+nav ul li{
+    list-style: none;
+    float: left;
+    margin-right: 10px ;
+    margin-top: 16px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #dedede;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: #2b2b2b;
+    padding: 3px;
+    background-color: #2b2b2b;
+}
+nav ul li a:hover{
+    filter: invert(96%) sepia(2%) saturate(1255%) hue-rotate(22deg) brightness(76%) contrast(86%);
+}
+/* ############## MAIN ##############*/ 
+main{
+    width: 100%;
+    clear: both;
+    margin-bottom: 100px;
+}
+.cards1{
+    justify-content: space-around;
+    margin: auto 250px;
+    display:flex;
+}
+.cards2{
+    justify-content: space-around;
+    margin: auto 250px;
+    display:flex;
+}
+.card{
+    margin-top: 100px;
+}
+/* ############## FOOTER ##############*/ 
+.card img{
+    width: auto;
+    height: 375px;
+}
+footer{
+    background-color:#f2f9fa;
+    padding: 0.625em;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
+.icon{
+    width: 1.5625em;
+    height: 1.5625em;
+}
+.iconos_redes ul{
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+    padding: 0%; 
+}
+.iconos_redes ul li{
+    list-style: none;
+    border-style:solid;
+    border-radius: 100%;
+    border: none;
+    padding: 0.3125em;
+}
+.iconos_redes ul li a{
+    text-decoration: none;
+}
+.icon{
+    filter: invert(12%) sepia(20%) saturate(0%) hue-rotate(143deg) brightness(100%) contrast(88%);
+}
+
+.icon:hover{
+    filter: invert(96%) sepia(2%) saturate(1255%) hue-rotate(22deg) brightness(76%) contrast(86%);
+    
+}
+.Copyright{
+    text-align: center;
+    color: #2b2b2b;
+}
+/* ############## C0NTACTO ##############*/ 
+.container{
+    margin: auto 250px;
+}
+.contacto{
+    text-align: center;
+}
+#wrapper{
+    margin: 10px auto;
+    padding: 30px;
+    background-color: #2b2b2b;
+    font-size: 14px;
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+label{
+    display: block;
+    font-size: 24px;
+    padding: 13px 0;
+    color: #dedede;
+    text-shadow: 1px 1px 1px #666;
+}
+input{
+    display: block;
+    width: 100%;
+}
+textarea{
+    width: 100%;
+}
